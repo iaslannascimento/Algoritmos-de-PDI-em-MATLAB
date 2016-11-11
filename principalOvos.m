@@ -3,7 +3,7 @@
 clear all
 close all
 
-im = imread('ovo.jpg');
+im = imread('17.jpg');
 
 %canal G
 g = im(:,:,2);
@@ -45,10 +45,10 @@ resultPerimetro
 
 %descrito de brilho
 
-resultBrilho = descBrilho(pre,mascara);
-resultBrilho
+%resultBrilho = descBrilho(pre,mascara);
+%resultBrilho
 
 
 %descritor de quantidade de erosão 
-resultErosao = descErsao(pre);
-resultErosao
+%resultErosao = descErsao(pre);
+%resultErosao
