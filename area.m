@@ -1,8 +1,7 @@
 close all
 clear all
 
-im = imread('')
-
+im = imread('nomeimg.*')
 
     area = 0;
 
@@ -13,3 +12,4 @@ im = imread('')
             end
         end
     end
+area
